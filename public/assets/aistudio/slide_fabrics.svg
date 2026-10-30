@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 928 1152" width="928" height="1152">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031229" />
+      <stop offset="60%" stop-color="#071f42" />
+      <stop offset="100%" stop-color="#04132a" />
+    </linearGradient>
+    <linearGradient id="marbleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2026" />
+      <stop offset="50%" stop-color="#121519" />
+      <stop offset="100%" stop-color="#0b0d10" />
+    </linearGradient>
+    <linearGradient id="royalBlueFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e3b8c" />
+      <stop offset="50%" stop-color="#092966" />
+      <stop offset="100%" stop-color="#051a45" />
+    </linearGradient>
+    <linearGradient id="navyCheckFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102a56" />
+      <stop offset="100%" stop-color="#081836" />
+    </linearGradient>
+    <linearGradient id="charcoalTweed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4b525c" />
+      <stop offset="50%" stop-color="#2f353d" />
+      <stop offset="100%" stop-color="#1b1f24" />
+    </linearGradient>
+    <linearGradient id="goldCap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a6421" />
+      <stop offset="35%" stop-color="#ebd197" />
+      <stop offset="70%" stop-color="#b88c38" />
+      <stop offset="100%" stop-color="#6e4e16" />
+    </linearGradient>
+    <pattern id="herringboneGrey" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+      <rect width="24" height="24" fill="#2c3138" />
+      <path d="M0,6 L12,0 L24,6 M0,18 L12,12 L24,18" fill="none" stroke="#8c949e" stroke-width="2.5" opacity="0.55" />
+    </pattern>
+    <pattern id="herringboneBlue" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+      <rect width="20" height="20" fill="#0a2d6e" />
+      <path d="M0,5 L10,0 L20,5 M0,15 L10,10 L20,15" fill="none" stroke="#1e5bc6" stroke-width="2.2" opacity="0.65" />
+    </pattern>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Wall Background -->
+  <rect width="928" height="1152" fill="url(#wallGrad)" />
+
+  <!-- Dark Marble Tailor Table Surface -->
+  <polygon points="0,380 928,260 928,1152 0,1152" fill="url(#marbleGrad)" />
+  <!-- Subtle Marble Veins -->
+  <path d="M80,420 Q240,460 410,390 T780,450" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="3" />
+  <path d="M120,980 Q380,910 620,1040 T910,960" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2.5" />
+
+  <!-- Coiled White Measuring Tape (Top Right on Table) -->
+  <g transform="translate(545, 200)" filter="url(#dropShadow)">
+    <path
+      d="M220,0 C110,10 20,55 20,115 C20,175 130,210 250,185 L250,125 C140,145 65,120 65,75 C65,45 135,25 220,55 Z"
+      fill="#e2dac9"
+      stroke="#b5ab99"
+      stroke-width="2"
+    />
+    <path
+      d="M25,125 C25,185 135,225 265,195 L265,135 C145,160 45,135 25,85 Z"
+      fill="#f5f0e6"
+      stroke="#c7bfb0"
+      stroke-width="2"
+    />
+    <!-- Measurement Marks on Tape -->
+    <text x="62" y="162" fill="#1e293b" font-family="monospace" font-size="26" font-weight="800" transform="rotate(14 62 162)">12</text>
+    <text x="102" y="174" fill="#1e293b" font-family="monospace" font-size="26" font-weight="800" transform="rotate(8 102 174)">13</text>
+    <text x="146" y="180" fill="#1e293b" font-family="monospace" font-size="26" font-weight="800" transform="rotate(2 146 180)">14</text>
+    <text x="192" y="180" fill="#1e293b" font-family="monospace" font-size="26" font-weight="800" transform="rotate(-4 192 180)">15</text>
+    <text x="236" y="174" fill="#1e293b" font-family="monospace" font-size="26" font-weight="800" transform="rotate(-8 236 174)">16</text>
+  </g>
+
+  <!-- Tall Gold-Capped Spool of Navy Thread (Right) -->
+  <g transform="translate(745, 92)" filter="url(#dropShadow)">
+    <!-- Bottom Gold Base -->
+    <ellipse cx="95" cy="415" rx="92" ry="30" fill="url(#goldCap)" />
+    <rect x="3" y="385" width="184" height="30" fill="url(#goldCap)" />
+    <ellipse cx="95" cy="385" rx="92" ry="28" fill="#d9b86c" />
+
+    <!-- Navy Blue Thread Cylinder -->
+    <path d="M18,75 L172,75 L164,385 C164,402 26,402 26,385 Z" fill="#072252" stroke="#123d82" stroke-width="2" />
+    <!-- Thread Texture Lines -->
+    <path d="M20,120 Q95,142 170,120" fill="none" stroke="#184a9c" stroke-width="3" />
+    <path d="M21,165 Q95,187 169,165" fill="none" stroke="#184a9c" stroke-width="3" />
+    <path d="M22,210 Q95,232 168,210" fill="none" stroke="#184a9c" stroke-width="3" />
+    <path d="M23,255 Q95,277 167,255" fill="none" stroke="#184a9c" stroke-width="3" />
+    <path d="M24,300 Q95,322 166,300" fill="none" stroke="#184a9c" stroke-width="3" />
+    <path d="M25,345 Q95,367 165,345" fill="none" stroke="#184a9c" stroke-width="3" />
+
+    <!-- Top Gold Cap -->
+    <ellipse cx="95" cy="70" rx="76" ry="22" fill="url(#goldCap)" />
+    <rect x="48" y="20" width="94" height="45" fill="url(#goldCap)" />
+    <ellipse cx="95" cy="20" rx="47" ry="14" fill="#f3dca2" />
+    <ellipse cx="95" cy="20" rx="26" ry="8" fill="#593e10" />
+  </g>
+
+  <!-- Stacked Luxury Suiting Fabric Bolts & Swatches -->
+  <g filter="url(#dropShadow)">
+    <!-- Bottom Layer: Dark Charcoal & Navy Folded Bolt -->
+    <path
+      d="M-30,850 L280,1065 L928,895 L928,1015 L275,1145 L-30,960 Z"
+      fill="url(#charcoalTweed)"
+      stroke="#3f4652"
+      stroke-width="2"
+    />
+    <!-- Second Layer: Grey Herringbone Wool Bolt -->
+    <path
+      d="M-30,740 L265,935 L915,765 L928,875 L265,1045 L-30,840 Z"
+      fill="url(#herringboneGrey)"
+      stroke="#646d7a"
+      stroke-width="3"
+    />
+    <!-- Third Layer: Navy Windowpane Check Suiting Bolt -->
+    <path
+      d="M-20,620 L485,435 L895,625 C912,655 905,695 880,715 L255,895 L-20,730 Z"
+      fill="url(#navyCheckFabric)"
+      stroke="#234885"
+      stroke-width="2.5"
+    />
+    <!-- Windowpane Check Lines -->
+    <g stroke="#cbd5e1" stroke-width="1.8" stroke-dasharray="4,4" opacity="0.55">
+      <line x1="520" y1="490" x2="780" y2="735" />
+      <line x1="590" y1="470" x2="845" y2="705" />
+      <line x1="660" y1="450" x2="890" y2="665" />
+      <line x1="480" y1="620" x2="860" y2="545" />
+      <line x1="530" y1="685" x2="890" y2="610" />
+    </g>
+
+    <!-- Top Pinked Swatch Layers: Royal Blue Herringbone -->
+    <polygon
+      points="-10,495 455,345 645,465 255,785 -10,645"
+      fill="url(#herringboneBlue)"
+      stroke="#2b6cb0"
+      stroke-width="3"
+      stroke-dasharray="10,6"
+    />
+    <polygon
+      points="15,545 485,385 685,515 268,830 15,690"
+      fill="url(#royalBlueFabric)"
+      stroke="#3182ce"
+      stroke-width="3"
+      stroke-dasharray="10,6"
+    />
+
+    <!-- Woven Navy Square Brand Label with White & Blue Trench 'T' Logo -->
+    <g transform="translate(345, 580) rotate(12)" filter="url(#dropShadow)">
+      <rect x="0" y="0" width="250" height="225" rx="12" fill="#0c2b66" stroke="#1e4e9e" stroke-width="3" />
+      <!-- Centered Trench T Logo -->
+      <g transform="translate(88, 66) scale(1.35)">
+        <polygon points="0,0 58,0 48,12 22,12 22,52 10,62 10,12 0,12" fill="#FFFFFF" />
+        <polygon points="26,18 46,18 40,28 34,28 34,46 26,52" fill="#38b6ff" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Top-Left Icon & Headline ("Premium fabrics.") -->
+  <g transform="translate(64, 54)">
+    <!-- Sky Blue Stacked Fabric Swatches Outline Icon -->
+    <g fill="none" stroke="#1496ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="48,4 94,26 48,48 2,26" />
+      <polyline points="2,42 48,64 94,42" />
+      <polyline points="2,58 48,80 94,58" />
+    </g>
+
+    <!-- Bold White Headline -->
+    <text
+      x="0"
+      y="148"
+      fill="#FFFFFF"
+      font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="60"
+      font-weight="800"
+      letter-spacing="-1.2"
+    >
+      Premium
+    </text>
+    <text
+      x="0"
+      y="208"
+      fill="#FFFFFF"
+      font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="60"
+      font-weight="800"
+      letter-spacing="-1.2"
+    >
+      fabrics.
+    </text>
+
+    <!-- Curved Bright Blue Underline Brush Stroke -->
+    <path
+      d="M4,248 Q68,228 134,230"
+      fill="none"
+      stroke="#1496ff"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

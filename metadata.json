@@ -1,0 +1,6 @@
+{
+  "name": "StitchRoute — Delivery & Tailors Platform",
+  "description": "Dual-interface platform connecting customers, bespoke tailors, and delivery & measurement partners for clothing stitching, video-guided measurements, and alteration logistics.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

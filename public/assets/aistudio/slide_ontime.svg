@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 928 1152" width="928" height="1152">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041126" />
+      <stop offset="50%" stop-color="#081d3d" />
+      <stop offset="100%" stop-color="#051329" />
+    </linearGradient>
+    <linearGradient id="routeGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a2ff" />
+      <stop offset="50%" stop-color="#29c4ff" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38c8ff" />
+      <stop offset="100%" stop-color="#0077e6" />
+    </linearGradient>
+    <linearGradient id="truckRoof" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#193b6e" />
+      <stop offset="100%" stop-color="#0c2347" />
+    </linearGradient>
+    <linearGradient id="truckSide" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d264c" />
+      <stop offset="100%" stop-color="#06152d" />
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Background -->
+  <rect width="928" height="1152" fill="url(#bgGrad)" />
+
+  <!-- Isometric 3D City Board Base -->
+  <g transform="translate(0, 60)">
+    <!-- Outer City Platform -->
+    <polygon points="40,780 620,250 1060,550 380,1130" fill="#0d1b2e" stroke="#1c3554" stroke-width="6" filter="url(#softShadow)" />
+    <polygon points="40,780 380,1130 380,1165 40,815" fill="#08111f" />
+    <polygon points="380,1130 1060,550 1060,585 380,1165" fill="#050c17" />
+
+    <!-- Isometric City Grid Blocks -->
+    <!-- Top Row Blocks -->
+    <polygon points="470,410 590,305 695,380 575,485" fill="#182940" stroke="#263e5c" stroke-width="2" />
+    <polygon points="615,285 735,180 855,265 735,370" fill="#1b2d45" stroke="#263e5c" stroke-width="2" />
+    <!-- Isometric Building on Top Block -->
+    <polygon points="635,235 705,185 775,235 705,285" fill="#7a6855" />
+    <polygon points="635,235 705,285 705,325 635,275" fill="#5c4d3c" />
+    <polygon points="705,285 775,235 775,275 705,325" fill="#423629" />
+
+    <!-- Second Row Blocks -->
+    <polygon points="325,535 445,430 550,505 430,610" fill="#1c2f47" stroke="#2c4769" stroke-width="2" />
+    <polygon points="475,525 595,420 715,505 595,610" fill="#1a2c42" stroke="#2c4769" stroke-width="2" />
+    <polygon points="625,400 745,295 865,380 745,485" fill="#1c314a" stroke="#2c4769" stroke-width="2" />
+
+    <!-- Third Row Blocks -->
+    <polygon points="180,660 300,555 405,630 285,735" fill="#1d314a" stroke="#2d496b" stroke-width="2" />
+    <polygon points="330,650 450,545 570,630 450,735" fill="#182a40" stroke="#2d496b" stroke-width="2" />
+    <polygon points="620,545 740,440 860,525 740,630" fill="#1c314a" stroke="#2d496b" stroke-width="2" />
+
+    <!-- Bottom Row Blocks -->
+    <polygon points="75,755 165,675 265,750 175,830" fill="#1a2c42" stroke="#2d496b" stroke-width="2" />
+    <polygon points="210,835 330,730 455,820 335,925" fill="#182940" stroke="#2d496b" stroke-width="2" />
+    <polygon points="480,675 600,570 725,660 605,765" fill="#1c314a" stroke="#2d496b" stroke-width="2" />
+    <polygon points="365,945 485,840 610,930 490,1035" fill="#182a40" stroke="#2d496b" stroke-width="2" />
+
+    <!-- 3D Dark Buildings on Blocks -->
+    <!-- Building Left -->
+    <polygon points="220,625 265,590 310,625 265,660" fill="#2c3e55" />
+    <polygon points="220,625 265,660 265,695 220,660" fill="#1e2c3d" />
+    <polygon points="265,660 310,625 310,660 265,695" fill="#141e2b" />
+
+    <!-- Building Right Mid -->
+    <polygon points="690,565 735,530 780,565 735,600" fill="#2e4259" />
+    <polygon points="690,565 735,600 735,645 690,610" fill="#1f2e40" />
+    <polygon points="735,600 780,565 780,610 735,645" fill="#14202e" />
+
+    <!-- Building Bottom Center -->
+    <polygon points="500,775 555,730 615,775 560,820" fill="#2b3f57" />
+    <polygon points="500,775 560,820 560,865 500,820" fill="#1c2a3b" />
+    <polygon points="560,820 615,775 615,820 560,865" fill="#131d29" />
+
+    <!-- Lush Green Trees Clusters -->
+    <g fill="#2d6e1e">
+      <circle cx="380" cy="365" r="24" />
+      <circle cx="400" cy="355" r="20" fill="#46962b" />
+      <circle cx="365" cy="380" r="18" fill="#388024" />
+
+      <circle cx="95" cy="645" r="26" />
+      <circle cx="115" cy="635" r="22" fill="#46962b" />
+      <circle cx="80" cy="660" r="20" fill="#388024" />
+
+      <circle cx="290" cy="915" r="32" />
+      <circle cx="315" cy="900" r="26" fill="#46962b" />
+      <circle cx="265" cy="930" r="24" fill="#388024" />
+
+      <circle cx="715" cy="705" r="25" />
+      <circle cx="735" cy="695" r="20" fill="#46962b" />
+    </g>
+
+    <!-- Glowing Neon Cyan-Blue Delivery Route -->
+    <polyline
+      points="120,865 535,585 645,495 575,445 730,340"
+      fill="none"
+      stroke="url(#routeGlow)"
+      stroke-width="24"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#neonGlow)"
+    />
+    <polyline
+      points="120,865 535,585 645,495 575,445 730,340"
+      fill="none"
+      stroke="#bff0ff"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Destination Glowing Target Rings -->
+    <ellipse cx="730" cy="340" rx="54" ry="28" fill="none" stroke="#00c8ff" stroke-width="5" opacity="0.7" filter="url(#neonGlow)" />
+    <ellipse cx="730" cy="340" rx="34" ry="18" fill="#6ee7ff" filter="url(#neonGlow)" />
+
+    <!-- 3D Glowing Blue Destination Map Pin -->
+    <g transform="translate(730, 335)" filter="url(#softShadow)">
+      <path
+        d="M0,0 C-28,-42 -58,-85 -58,-122 C-58,-156 -32,-182 0,-182 C32,-182 58,-156 58,-122 C58,-85 28,-42 0,0 Z"
+        fill="url(#pinGrad)"
+        stroke="#7be0ff"
+        stroke-width="4"
+      />
+      <circle cx="0" cy="-122" r="22" fill="#09254a" stroke="#63d8ff" stroke-width="4" />
+    </g>
+
+    <!-- 3D Isometric Navy Trench Delivery Box Truck -->
+    <g transform="translate(290, 445)" filter="url(#softShadow)">
+      <!-- Truck Cab (Front Right) -->
+      <polygon points="185,115 245,75 265,155 205,195" fill="#0b2246" stroke="#24477a" stroke-width="2" />
+      <polygon points="210,95 245,75 258,118 220,140" fill="#061326" stroke="#3c68a6" stroke-width="1.5" />
+      <!-- Truck Wheels -->
+      <ellipse cx="225" cy="188" rx="22" ry="26" fill="#111722" stroke="#3c4c63" stroke-width="4" />
+      <ellipse cx="225" cy="188" rx="10" ry="13" fill="#6b7c96" />
+      <ellipse cx="122" cy="256" rx="24" ry="28" fill="#111722" stroke="#3c4c63" stroke-width="4" />
+      <ellipse cx="122" cy="256" rx="11" ry="14" fill="#6b7c96" />
+
+      <!-- Truck Cargo Box Roof (Corrugated Navy) -->
+      <polygon points="5,115 140,25 215,65 80,155" fill="url(#truckRoof)" stroke="#3863a1" stroke-width="2" />
+      <!-- Roof Ridges -->
+      <line x1="25" y1="102" x2="100" y2="142" stroke="#294e85" stroke-width="2" />
+      <line x1="45" y1="89" x2="120" y2="129" stroke="#294e85" stroke-width="2" />
+      <line x1="65" y1="76" x2="140" y2="116" stroke="#294e85" stroke-width="2" />
+      <line x1="85" y1="63" x2="160" y2="103" stroke="#294e85" stroke-width="2" />
+      <line x1="105" y1="50" x2="180" y2="90" stroke="#294e85" stroke-width="2" />
+      <line x1="125" y1="37" x2="200" y2="77" stroke="#294e85" stroke-width="2" />
+
+      <!-- Truck Cargo Box Right Side (With Large Trench T Logo) -->
+      <polygon points="80,155 215,65 215,175 80,265" fill="url(#truckSide)" stroke="#1f3f70" stroke-width="2" />
+      <!-- Trench T Logo on Side of Truck -->
+      <g transform="translate(132, 125) skewY(-33) scale(0.95)">
+        <!-- White T top & left stem -->
+        <polygon points="-18,0 36,0 28,12 6,12 6,62 -6,70 -6,12 -18,12" fill="#FFFFFF" />
+        <!-- Sky Blue inner right bar -->
+        <polygon points="10,18 28,18 23,28 18,28 18,50 10,56" fill="#2299ff" />
+      </g>
+
+      <!-- Truck Cargo Box Rear Doors (Left Face) -->
+      <polygon points="5,115 80,155 80,265 5,225" fill="#06142b" stroke="#1f3f70" stroke-width="2" />
+      <line x1="42" y1="135" x2="42" y2="245" stroke="#142b52" stroke-width="2" />
+      <!-- Trench T Logo on Rear Door -->
+      <g transform="translate(36, 168) skewY(28) scale(0.55)">
+        <polygon points="-18,0 36,0 28,12 6,12 6,62 -6,70 -6,12 -18,12" fill="#FFFFFF" />
+        <polygon points="10,18 28,18 23,28 18,28 18,50 10,56" fill="#2299ff" />
+      </g>
+
+      <!-- Glowing Red Taillights & License Plate -->
+      <rect x="8" y="220" width="16" height="10" rx="2" transform="skewY(28)" fill="#ff1e27" filter="url(#neonGlow)" />
+      <rect x="62" y="218" width="16" height="10" rx="2" transform="skewY(28)" fill="#ff1e27" filter="url(#neonGlow)" />
+      <rect x="30" y="215" width="24" height="10" rx="1.5" transform="skewY(28)" fill="#f8fafc" />
+    </g>
+  </g>
+
+  <!-- Top-Left Icon & Headline ("On time. Always.") -->
+  <g transform="translate(72, 52)">
+    <!-- Sky Blue Map Pin Outline Icon -->
+    <path
+      d="M42,0 C19,0 0,19 0,42 C0,71 42,106 42,106 C42,106 84,71 84,42 C84,19 65,0 42,0 Z"
+      fill="none"
+      stroke="#1496ff"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="42" cy="40" r="14" fill="none" stroke="#1496ff" stroke-width="8" />
+
+    <!-- Bold White Headline -->
+    <text
+      x="0"
+      y="182"
+      fill="#FFFFFF"
+      font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="68"
+      font-weight="800"
+      letter-spacing="-1.5"
+    >
+      On time.
+    </text>
+    <text
+      x="0"
+      y="252"
+      fill="#FFFFFF"
+      font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="68"
+      font-weight="800"
+      letter-spacing="-1.5"
+    >
+      Always.
+    </text>
+
+    <!-- Curved Bright Blue Underline Brush Stroke -->
+    <path
+      d="M4,292 Q62,270 122,272"
+      fill="none"
+      stroke="#1496ff"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
